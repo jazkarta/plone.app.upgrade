@@ -90,6 +90,10 @@ Bug fixes:
 - Fix upgrade step for PasswordResetTool if there was never da different value than the default was set.
   [jensens]
 
+- Adapt tests to the new indexing operations queueing.
+  Part of PLIP 1343: https://github.com/plone/Products.CMFPlone/issues/1343
+  [gforcada]
+
 
 1.3.27 (2016-08-16)
 -------------------
