@@ -9,4 +9,18 @@
       False
     </value>
   </records>
+  <record name="plone.lead_scale_name">
+    <field type="plone.registry.field.Choice">
+        <title>Leadimage scale</title>
+        <description>Please select scale which will be used.</description>
+        <vocabulary>plone.app.vocabularies.ImagesScales</vocabulary>
+    </field>
+    <value>mini</value>
+  </record>
+  <record name="plone.is_lead_visible">
+    <field type="plone.registry.field.Bool">
+        <title>Show Leadimage in content</title>
+    </field>
+    <value>True</value>
+  </record>
 </registry>
