@@ -23,4 +23,7 @@
   <records interface="Products.CMFPlone.interfaces.ISearchSchema"
            prefix="plone" />
 
+  <!-- New options for thumb- and icon-handling -->
+    <records interface="Products.CMFPlone.interfaces.ISiteSchema"
+            prefix="plone" /> 
 </registry>
