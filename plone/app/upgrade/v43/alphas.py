@@ -12,6 +12,9 @@ num_sort_regex = re.compile('\d+')
 
 
 def reindex_sortable_title(context):
+    # @@@
+    return
+
     from Products.CMFPlone.CatalogTool import MAX_SORTABLE_TITLE
     catalog = getToolByName(context, 'portal_catalog')
     _catalog = catalog._catalog
@@ -56,6 +59,9 @@ def reindex_sortable_title(context):
 def upgradeToI18NCaseNormalizer(context):
     """Upgrade lexicon to I18N Case Normalizer
     """
+    # @@@
+    return
+
     catalog = getToolByName(context, 'portal_catalog')
     for index in catalog.Indexes.objectValues():
         if IZCTextIndex.providedBy(index):
