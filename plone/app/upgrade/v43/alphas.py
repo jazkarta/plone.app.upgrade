@@ -196,7 +196,7 @@ def upgradeSyndication(context):
             obj = brain.getObject()
         except (AttributeError, KeyError):
             continue
-        if 'syndication_information' in obj.objectIds():
+        if 'syndication_information' in obj:
             # just having syndication info object means
             # syndication is enabled
             info = obj.syndication_information
